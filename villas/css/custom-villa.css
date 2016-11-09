@@ -1,0 +1,138 @@
+input[type="text"]{
+	height: 30px;
+}
+.images-gallery{
+    background-color: #f5f7f8;
+	border: 1px solid rgb(222,222,222);
+    display: block;
+    height: auto;
+    padding: 10px;
+	margin-top: 10px;
+}
+
+.review{ 
+    background-color: #f5f7f8;
+	border: 1px solid rgb(222,222,222);
+    display: block;
+    height: auto;
+    padding: 10px;
+	margin-top: 10px;
+}
+
+.meta-box{
+	background-color: #f5f7f8;
+	border: 1px solid rgb(222,222,222);
+    display: block;
+    height: 100px;
+    padding: 10px;
+	margin-top:10px;
+}
+.meta-box-textarea{
+	background-color: #f5f7f8;
+	border: 1px solid rgb(222,222,222);
+    display: block;
+    height: 150px;
+    padding: 10px;
+	margin-top: 10px;
+}
+#newReview{
+	font-size: 16px;
+	cursor: pointer;
+}
+#showReview{
+	font-size: 16px;
+	cursor: pointer;
+}
+.add-review{
+	  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  padding: 0 10px;
+}
+.display-review{
+	background-color: #fff;
+  display: inline-block;
+  position: relative;
+  top: -36px;
+  padding: 0 10px;
+}
+.review-box{
+	  padding: 10px;
+  border: 1px solid #DFE6EA;
+  margin-top: 20px;
+    
+
+}
+.delete {
+  margin-left: 15px !important;
+  cursor: pointer;
+}
+.edit {
+  
+  cursor: pointer;
+}
+#confirmationBox{
+	width: 400px;
+	height: 300px;
+	border: 1px solid #e2e2e2;
+}
+.active-review{
+	color: #95ba00;
+}
+div#villa_meta_box_gallery {
+  margin-bottom: 40px;
+}
+div#villa_meta_box {
+  margin-bottom: 40px;
+}
+input#newReview {
+  background-color: #f7f7f7;
+  border-color: #ccc;
+  font-size: 14px;
+  color: #555;
+}
+.meta-box select {
+  width: 43%;
+}
+
+.confirmation-box {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto;
+z-index: 99999999; 
+}
+.popupConfirmation p {
+    font-size: 16px;
+    /* font-weight: 400; */
+    color: #000;
+}
+.popupConfirmation {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -202px;
+    font-family: 'Raleway',sans-serif;
+    background-color: #e2e2e2;
+    width: 400px;
+    height: 150px;
+	font-size: 65px;
+    text-align: center;
+    border: 2px solid #000;
+	padding-top: 30px;
+}
+.close-btnR{
+    float: right;
+    position: relative;
+    top: -28px;
+    left: 1px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #FB0E0E;
+}

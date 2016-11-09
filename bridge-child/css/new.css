@@ -1,0 +1,30 @@
+.search-form {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+.ui-slider-handle ui-state-default ui-corner-all{ 
+	background-color: rgb(149, 186, 0) !important; 
+	border-color: rgb(149, 186, 0) !important;
+	width:15px !important;
+	height:15px !important;
+	border-redius: 0;
+}
+.tp-caption{padding:0 40px !important;white-space: nowrap !important;}
+.ui-slider-horizontal .ui-slider-range-min{  background-color: rgb(149, 186, 0);  border-color: rgb(149, 186, 0);}
+
+#slider{width: 95%; height: 21px; border-radius: 0px;margin-top: 17px; background-color: #f7f7f7;    margin: 25px 0 0 5px;   border: 0px solid rgb(200,200,200); }
+#step_slider{width: 95%; height: 21px; border-radius: 0px;margin-top: 17px; background-color: #f7f7f7;    margin: 25px 0 0 5px;   border: 0px solid rgb(200,200,200);}
+.ui-slider-horizontal .ui-slider-range-min{background: #AFD80C;  border-radius: 0;}
+
+
+
+#btn-margin{margin-top: 33px;}
+.q_accordion_holder.accordion .ui-accordion-header .accordion_mark.left_mark{background:transparent;right:0 !important;left:94%;margin-top: 8px;}
+.q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark{background-color: transparent !important;}
+.tp-simpleresponsive .slotholder *, .tp-simpleresponsive img {background-attachment: fixed !important;}
+.ui-widget-content{
+	background-color: #676767 important;
+}
+.q_accordion_holder.accordion h5.ui-accordion-header{border-top:1px solid #B4B4B4;  height: 60px;padding: 18px 0;margin-bottom: 0;}

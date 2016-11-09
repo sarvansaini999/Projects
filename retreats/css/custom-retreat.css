@@ -1,0 +1,115 @@
+input[type="text"]{
+	height: 30px;
+	margin-top:20px;
+}
+.images-gallery{
+    background-color: #f5f7f8;
+	border: 1px solid rgb(222,222,222);
+    display: block;
+    height: auto;
+    padding: 10px;
+	margin-top: 10px;
+}
+.meta-box{
+	background-color: #f5f7f8;
+	border: 1px solid rgb(222,222,222);
+    display: block;
+    height: 100px;
+    padding: 10px;
+	margin-top:10px;
+}
+.meta-box-textarea{
+	background-color: #f5f7f8;
+	border: 1px solid rgb(222,222,222);
+    display: block;
+    height: 150px;
+    padding: 10px;
+	margin-top: 10px;
+}
+p.add-program img {
+	float: right;
+    margin-left: 49px;
+	cursor: pointer;
+}
+p.add-accommodation img{
+	float: right;
+}
+.images-gallery p {
+    width: 60%;
+}
+.add-new-btn{
+	background-color: #fff;
+	position: relative;
+	top: 0px;
+	padding: 0 10px;
+}
+input#programNight {
+  background-color: #f7f7f7;
+  border-color: #ccc;
+  font-size: 14px;
+  color: #555;
+}
+input#retreatProgram {
+  background-color: #f7f7f7;
+  border-color: #ccc;
+  font-size: 14px;
+  color: #555;
+}
+input#programNight {
+  background-color: #f7f7f7;
+  border-color: #ccc;
+  font-size: 14px;
+  color: #555;
+}
+.button-style{
+	background-color: #f7f7f7;
+  border-color: #ccc;
+  font-size: 14px;
+  color: #555;
+  padding: 6px 45px;
+  cursor: pointer;
+}
+
+.confirmation-box {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto;
+z-index: 99999999; 
+}
+.popupConfirmation p {
+    font-size: 16px;
+    /* font-weight: 400; */
+    color: #000;
+}
+.popupConfirmation {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -202px;
+    font-family: 'Raleway',sans-serif;
+    background-color: #e2e2e2;
+    width: 400px;
+    height: 150px;
+	font-size: 65px;
+    text-align: center;
+    border: 2px solid #000;
+	padding-top: 30px;
+}
+.close-btn{
+    float: right;
+    position: relative;
+    top: -28px;
+    left: 1px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #FB0E0E;
+}
+tbody {
+    font-size: 14px;
+}
